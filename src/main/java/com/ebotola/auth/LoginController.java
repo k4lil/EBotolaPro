@@ -12,8 +12,9 @@ public class LoginController {
 	
 	@PostMapping(produces = MediaType.APPLICATION_JSON_VALUE)
 	public void login(String p_username, String p_password) {
-		return p_username != null && p_password != null &&
-				p_username.equals("a") && p_password.equals("p");
+		
+		/*return p_username != null && p_password != null &&
+				p_username.equals("a") && p_password.equals("p");*/
 	}
 
 }
